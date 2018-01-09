@@ -1,0 +1,21 @@
+///----POINTERS GUIDE
+
+* When we pass a value to a function, we really pass a copy of the value
+* If we instead pass a pointer, we can pass the actual variable to a function
+
+***** MEMORY RECAP (non-DRY version)
+ - int = 4 bytes of memory in RAM
+ - char = 1 byte of memory in RAM
+ - float = 4 bytes of memory in RAM
+ - double = 8 bytes of memory in RAM
+ - long long = 8 bytes of memory in RAM
+ - char* = 4 or 8 bytes of memory in RAM
+ - all pointers are 4 or 8 bytes of RAM
+
+ ** A pointer is a data item whose value is a memory address
+ ** The type indicated the type of data stored at the point
+
+ * & can be used to extract the address location of an already existing variable
+
+ int x;
+ &x; - value of address of x
